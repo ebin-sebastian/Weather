@@ -1,0 +1,10 @@
+#result {
+ color: rgb(241, 28, 28);
+}
+body{
+    background-image: url("main.jpg");
+    
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

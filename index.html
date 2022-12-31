@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href ="weather.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    
+</head>
+<body>
+   
+    <div class="container w-50  mt-5 ">
+        <h1 class="text-center opacity-50 font-weight-bold" >WEATHER</h1>
+        <div class="row p-5">
+            <div class="col-3"></div>
+            <div class="col-6 text-center">
+                <input type="text" placeholder="Enter City Name" class="form-control opacity-75 text-center" id="cname"><br>
+                <button id="button" type="button" onclick="search()" class="btn btn-info ">Search</button>
+            </div>
+            <div class="col-3 "></div>
+        </div>
+    </div>
+    <div class="" id="result">
+        
+    </div>
+
+
+    <script src="weather.js"></script>
+
+    
+    <!-- background change with switch -->
+    <!-- https://stackoverflow.com/questions/45191276/change-background-colour-based-on-value-output -->
+    <!-- https://api.openweathermap.org/data/2.5/weather?q=kakkanad&appid=5b4bee0ba241d092159faf007e166080 -->
+
+</body>
+
+</html>
